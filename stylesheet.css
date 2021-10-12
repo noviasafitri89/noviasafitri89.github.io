@@ -23,7 +23,6 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
   background-size: cover;
   color: white;
   text-align: center;
@@ -50,17 +49,17 @@ a {
   margin: 10px 0;
 }
 
-.signup {
-  background-color: #239b76;
+.instagram {
+  background-color: #c70039;
 }
 
-.facebook {
-  background-color: #3b5998;
+.tokopedia {
+  background-color: #7db954;
   margin-right: 10px;
 }
 
-.twitter {
-  background-color: #55acee;
+.shoppe {
+  background-color: #ff5733;
 }
 
 .btn {
