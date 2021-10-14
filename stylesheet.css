@@ -1,6 +1,6 @@
-* {
-  box-sizing: border-box;
-}
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
 form, input, div {
   margin: 0;
   padding: 0;
@@ -10,246 +10,97 @@ li {
   list-style: none;
   float:left;
 }
-
-a { 
+a {
   text-decoration:none;
 }
 
-.header {background-color:rgba(53, 53, 65, 0.9);
-  color:#fff;
-  height:65px;
-  width:100%;
-  position:fixed;
-  top:0; 
-  z-index:10;
-
+.header {
+  background-color: rgba(53, 53, 65, 0.9);
+  color: #fff;
+  height: 65px;
+  width: 100%;
+  position: fixed;
+  top: 0; 
+  z-index: 10;
 }
 
 .headerya {
-  font-family: "sans-serif";
-  font-size :19px;
-  padding:5px 5px;
+  font-family:  "sans-serif";
+  font-size : 19px;
+  padding: 5px 5px;
   float:left;
-  margin:15px 15px;
-  margin-right:450px;
-  letter-spacing:2px;
-  border:0.1px solid #dbdbdb;
-  margin-left:-5px;
-  font-weight:bolder;
+  margin: 15px 15px;
+  margin-right: 450px;
+  letter-spacing: 2px;
+  border: 0.1px solid #dbdbdb;
+  margin-left: -5px;
+  font-weight: bolder;
 }
 
 .header-logo img {
-  float:left;
-  padding:2px 20px;
-  width:69px;
-  height:62px;
-  margin-right:5px;}
-
-.btn:hover {
-  transition:all 1s;
-  background-color:rgba(208, 208, 233, 0.5);}
-
-.btn{float:left;
-  padding:0px 20px;
-  margin-right:5px;
-  line-height:65px;
-  display:block;
-  cursor:pointer;
-  
-}
-
-.contact {
-  margin-right:10px;
-
-}
-
-.login {
-  float:left;
-  padding:0px 20px;
-  margin-left:-8px;
-  display:block;
-  cursor:pointer;
-
-}
-
-.header-list a { 
-  color: white;
-  line-height: 65px;
- }
-
-.login:hover {
-    transition:all 1s;
-    background-color:rgba(208, 208, 233, 0.5);
-}
-    
-form {
-    float:left;
-    width:300px;
-    margin:19px 10px;
-}
-
-.search {
-    padding:8px 15px;
-    background:rgba(208, 208, 233, 1);
-    border:0px solid #dbdbdb;  
-}
-
-.button {
-    position:relative;
-    padding:6px 16px;
-    left:-2px;
-    border:2px solid #717175;
-    background-color:#717175;
-    color:#fafafa;
-    border-radius:3px;
-    cursor:pointer;
-}
-
-.button:hover  {
-    background-color:rgb(231, 231, 245);
-    color:#0a0000;
-}
-
-body {
-  margin: 0;
-  font-family: "Avenir-next";
-}
-
-a {
-  text-decoration: none;
-}
-
-.clear {
-  clear: left;
-}
-
-.container {
-  max-width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-.top-wrapper {
-  padding: 180px 0 100px 0;
-  background-image: url(https://winpoin.com/wp-content/uploads/2015/07/brand_pc_populer.jpeg);
-  background-size: cover;
-  color: white;
-  text-align: center;
-}
-
-.top-wrapper h1 {
-  opacity: 2;
-  font-size: 45px;
-  letter-spacing: 5px;
-  margin-bottom: 10px;
-}
-
-.top-wrapper p {
-  opacity: 2;
-  margin-bottom: 3px;
-}
-
-.btn-wrapper {
-  text-align: center;
-  margin: 20px 0;
-}
-
-.btn-wrapper p {
-  margin: 10px 0;
-}
-
-.instagram {
-  background-color: #c70039;
-}
-
-.tokopedia {
-  background-color: #7db954;
-  margin-right: 10px;
-}
-
-.shoppe {
-  background-color: #ff5733;
-}
-
-.btn {
-  padding: 12px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
-  text-align: center;
-}
-
-.btn:hover {
-  opacity: 0.5;
-}
-
-.fa {
+  float: left;
+  padding: 2px 20px;
+  width: 69px;
+  height: 62px;
   margin-right: 5px;
 }
 
-.menu-icon{
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display: none;
+.btn:hover {
+  transition: all 1s;
+  background-color: rgba(208, 208, 233, 0.5);
 }
 
-.lesson-wrapper {
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: #f7f7f7;
-  text-align: center;
-}
-
-.heading {
-  padding-top: 80px;
-  padding-bottom: 50px;
-  color: #5f5d60;
-}
-
-.heading h2 {
-  font-weight: normal;
-}
-
-.lesson {
-  float: left;
-  width: 25%;
-}
-
-.lesson-icon {
-  position: relative;
-}
-
-.text-contents {
-  width: 80%;
-  display: inline-block;
-  margin-top: 15px;
-  font-size: 30px;
-  color: #000080;
-}
-
-.heading h3 {
-  font-weight: normal;
-}
-
-.message-wrapper {
-  border-bottom: 1px solid #eee;
-  padding-bottom: 80px;
-  text-align: center;
-}
-
-.message {
-  padding: 15px 40px;
-  background-color: #5dca88;
+.btn {
+  float:left;
+  padding: 0px 20px;
+  margin-right: 5px;
+  line-height: 65px;
+  display: block;
   cursor: pointer;
-  box-shadow: 0 7px #1a7940;
 }
 
-.message:active {
-  position: relative;
-  top: 7px;
-  box-shadow: none;
+.contact {
+  margin-right: 10px;
+}
+
+.login {
+  float: left;
+  padding: 0px 20px;
+  margin-left: -8px;
+  display: block;
+  cursor: pointer;
+}
+.header-list a { 
+  color: white;
+  line-height: 65px;
+}
+
+.login:hover {
+  transition: all 1s;
+  background-color: rgba(208, 208, 233, 0.5);
+}
+    
+form {
+    float: left;
+    width: 300px;
+    margin: 19px 10px;
+}
+.search {
+    padding: 8px 15px;
+    background: rgba(208, 208, 233, 1);
+    border: 0px solid #dbdbdb;
+}
+.button {
+    position: relative;
+    padding: 6px 16px;
+    left: -2px;
+    border: 2px solid #717175;
+    background-color: #717175;
+    color: #fafafa;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.button:hover  {
+    background-color: rgb(231, 231, 245);
+    color: #0a0000;
 }
